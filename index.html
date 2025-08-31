@@ -1,200 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Robotica y Programacion</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- NAV -->
-    <nav class="navbar navbar-expand-md bg-info-subtle">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Robotica y Programacion</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotica y Programacion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <!-- NAV -->
+    <nav class="navbar navbar-expand-md navbar-dark"
+        style="background-color: #1e3a5f; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Robótica y Programación</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active" href="archivos.html">Archivos</a>
+                </div>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- CONTENIDO PRINCIPAL + ASIDE -->
-    <div class="container mt-5">
-      <div class="row">
-        <!-- MAIN -->
-        <main class="col-lg-8">
-          <h2 class="mb-4">Actividades Semana del 25 de Agosto</h2>
-          <div class="row g-3">
-            <!-- CARD 1 -->
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="card h-100">
-                <div class="card-header text-white text-center bg-warning">
-                  Mantenimiento
-                </div>
-                <img
-                  src="images/mantenimiento.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Mantenimiento Lunes</h5>
-                  <p class="card-text">
-                    Jornada de mantenimiento en el pabellon argentina
-                  </p>
-                  <ul class="list-group list-group-flush mt-auto">
-                    <li class="list-group-item">Fecha: 25 de Agosto</li>
-                    <li class="list-group-item">Hora: 10:00 a 12:00</li>
-                  </ul>
-                  <a href="#" class="btn btn-secondary mt-3">Inscripcion</a>
-                </div>
-              </div>
-            </div>
+  <!-- CONTENIDO PRINCIPAL + ASIDE -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- MAIN -->
+      <main class="col-lg-8">
+        <h2 class="mb-4">Actividades Semana del 1 de Septiembre</h2>
+        <div class="row g-3">
+          <!-- LINK DE INSCRIPCIÓN -->
+          <div class="text-center my-5">
+            <a href="https://forms.gle/nXfXPJmFQM55LAGn6" class="btn btn-lg btn-primary" target="_blank">
+              Formulario de Inscripcion
+            </a>
+          </div>
 
-            <!-- CARD 2 -->
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="card h-100">
-                <div class="card-header text-white text-center bg-success">
-                  Muestra
-                </div>
-                <img src="images/muestras.jpg" class="card-img-top" alt="..." />
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">3ra Jornada Mes de la niñez</h5>
-                  <p class="card-text">
-                    Muestra para niños y jovenes de colegios primarios y
-                    secundarios en Academia Nacional de Ciencias
-                  </p>
-                  <ul class="list-group list-group-flush mt-auto">
-                    <li class="list-group-item">Fecha: 26 de Agosto</li>
-                    <li class="list-group-item">Hora: 08:30 a 13:00</li>
-                  </ul>
-                  <a href="#" class="btn btn-secondary mt-3">Inscripcion</a>
-                </div>
+          <!-- CARD 1 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-center bg-warning">
+                <b>Mantenimiento</b>
               </div>
-            </div>
-
-            <!-- CARD 3 -->
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="card h-100">
-                <div class="card-header text-white text-center bg-warning">
-                  Mantenimiento
-                </div>
-                <img
-                  src="images/mantenimiento.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Mantenimiento Martes</h5>
-                  <p class="card-text">
-                    Jornada de mantenimiento en el pabellon argentina
-                  </p>
-                  <ul class="list-group list-group-flush mt-auto">
-                    <li class="list-group-item">Fecha: 26 de Agosto</li>
-                    <li class="list-group-item">Hora: 14:00 a 16:00</li>
-                  </ul>
-                  <a href="#" class="btn btn-secondary mt-3">Inscripcion</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- CARD 4 -->
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="card h-100">
-                <div class="card-header text-white text-center bg-warning">
-                  Mantenimiento
-                </div>
-                <img
-                  src="images/mantenimiento.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Mantenimiento Miercoles</h5>
-                  <p class="card-text">
-                    Jornada de mantenimiento en el pabellon argentina
-                  </p>
-                  <ul class="list-group list-group-flush mt-auto">
-                    <li class="list-group-item">Fecha: 27 de Agosto</li>
-                    <li class="list-group-item">Hora: 14:00 a 16:00</li>
-                  </ul>
-                  <a href="#" class="btn btn-secondary mt-3">Inscripcion</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- CARD 5 -->
-            <div class="col-12 col-md-6 col-lg-6">
-              <div class="card h-100">
-                <div class="card-header text-white text-center bg-danger">
-                  Capacitacion
-                </div>
-                <img
-                  src="images/capacitacion.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">
-                    1ra Capacitacion Nuevos Voluntarios
-                  </h5>
-                  <p class="card-text">
-                    Primera jornada de capacitacion para voluntarios inscriptos
-                    en el segundo semestre
-                  </p>
-                  <ul class="list-group list-group-flush mt-auto">
-                    <li class="list-group-item">Fecha: 30 de Agosto</li>
-                    <li class="list-group-item">Hora: 14:00 a 16:00</li>
-                  </ul>
-                  <a href="#" class="btn btn-secondary mt-3">Inscripcion</a>
-                </div>
+              <img src="images/mantenimiento.jpg" class="card-img-top" alt="mantenimiento" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Mantenimiento Martes</h5>
+                <p class="card-text">
+                  Jornada de mantenimiento en el pabellon argentina.
+                </p>
+                <ul class="list-group list-group-flush mt-auto">
+                  <li class="list-group-item"><b>Fecha: Martes 2 de Septiembre</b></li>
+                  <li class="list-group-item">Hora: 14:00 a 16:00</li>
+                </ul>
               </div>
             </div>
           </div>
-        </main>
-
-        <!-- ASIDE -->
-        <aside class="col-lg-4 mt-5 mt-lg-0">
-          <h4 class="text-center mb-3">Calendario</h4>
-          <div class="ratio ratio-4x3 mb-4">
-            <iframe
-              src="https://calendar.google.com/calendar/embed?src=c_4621f8115c3c276dc353bb4cb2f6d8f14c43a3ac50bd7533b9b78f699bdd713b%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires"
-              style="border: 0"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
+          <!-- CARD 3 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-center bg-warning">
+                <b>Mantenimiento</b>
+              </div>
+              <img src="images/mantenimiento.jpg" class="card-img-top" alt="mantenimiento" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Mantenimiento Miercoles</h5>
+                <p class="card-text">
+                  Jornada de mantenimiento en el pabellon argentina
+                </p>
+                <ul class="list-group list-group-flush mt-auto">
+                  <li class="list-group-item"><b>Fecha: Miercoles 3 de Septiembre</b></li>
+                  <li class="list-group-item">Hora: 14:00 a 16:00</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <h4 class="text-center mb-3">Asistencia</h4>
-          <div class="ratio ratio-4x3">
-            <iframe
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0RBQqzj3YqFWosRMnDXT8h4iE1W_7EM_OZ0fDSX47HiCDZFLgeqYg-3RKffitlFyT198avmW_4L1V/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-              style="border: 0"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
+          <!-- CARD 5 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <div class="card-header text-center bg-danger">
+                <b>Capacitacion</b>
+              </div>
+              <img src="images/capacitacion.jpg" class="card-img-top" alt="..." />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">
+                  2da Capacitacion Nuevos Voluntarios
+                </h5>
+                <p class="card-text">
+                  Segunda jornada de capacitacion para voluntarios inscriptos
+                  en el segundo semestre
+                </p>
+                <ul class="list-group list-group-flush mt-auto">
+                  <li class="list-group-item"><b>Fecha: Sabado 6 de Septiembre</b></li>
+                  <li class="list-group-item">Hora: 09:30 a 14:00</li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </aside>
-      </div>
+        </div>
+      </main>
+
+      <!-- ASIDE -->
+      <aside class="col-lg-4 mt-5 mt-lg-0">
+        <h4 class="text-center mb-3">Calendario</h4>
+        <div class="ratio ratio-4x3 mb-4">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=c_4621f8115c3c276dc353bb4cb2f6d8f14c43a3ac50bd7533b9b78f699bdd713b%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires"
+            style="border: 0" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+        <h4 class="text-center mb-3">Asistencia</h4>
+        <div class="ratio ratio-4x3">
+          <iframe
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0RBQqzj3YqFWosRMnDXT8h4iE1W_7EM_OZ0fDSX47HiCDZFLgeqYg-3RKffitlFyT198avmW_4L1V/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+            style="border: 0" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </aside>
     </div>
+  </div>
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-    <!-- BOOTSTRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>
